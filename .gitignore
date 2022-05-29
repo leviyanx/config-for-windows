@@ -1,0 +1,21 @@
+# Blacklist files/folders in same directory as the .gitignore file
+/*
+
+# Whitelist some files
+!.gitignore
+!README.md
+
+# Whitelist
+# trailing "/" is optional for folders, may match file though.
+# "/" is NOT optional when followed by a *
+!AppData
+AppData/*
+# terminal
+
+# nushell
+!AppData/Roaming
+AppData/Roaming/*
+!AppData/Roaming/nushell
+AppData/Roaming/nushell/*
+!AppData/Roaming/nushell/env.nu
+!AppData/Roaming/nushell/config.nu
