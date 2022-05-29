@@ -19,3 +19,11 @@ AppData/Roaming/*
 AppData/Roaming/nushell/*
 !AppData/Roaming/nushell/env.nu
 !AppData/Roaming/nushell/config.nu
+# neovim
+!AppData/Local
+AppData/Local/*
+!AppData/Local/nvim
+AppData/Local/nvim/*
+!AppData/Local/nvim/init.vim
+!AppData/Local/nvim/colors/
+!AppData/Local/nvim/autoload/
