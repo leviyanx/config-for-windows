@@ -27,3 +27,5 @@ AppData/Local/nvim/*
 !AppData/Local/nvim/init.vim
 !AppData/Local/nvim/colors/
 !AppData/Local/nvim/autoload/
+# lazygit
+!AppData/lazygit
