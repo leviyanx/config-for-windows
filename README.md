@@ -15,3 +15,4 @@ Extra
 3. install [neovim](https://neovim.io/) and add it to `path`
    1. install: `winget`
 4. install [lazygit](https://github.com/jesseduffield/lazygit) and add it to `path`
+5. [Other necessary programs list](./packages.txt)

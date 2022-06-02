@@ -1,0 +1,22 @@
+1. proxy network: qv2ray + v2ray core + SSR plugin (in USB and Aliyun)
+2. Neat Download Manager
+3. security
+   1. Huorong
+4. google chrome
+5. google drive
+6. geek uninstaller
+7. Aliyun
+8. Utools + everything
+9. Bandizip
+10. Themes
+    1. Auto dark mode
+11. Programming
+    1. Microsoft terminal
+    2. vscode
+12. Logitech Options
+13. Progress Telerik Fiddler Classic
+14. PowerToys
+15. TrafficMonitor
+16. Typora
+17. diskgenius
+18. easyUEFI enterprise (in aliyun)
