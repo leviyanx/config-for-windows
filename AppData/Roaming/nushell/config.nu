@@ -401,3 +401,12 @@ let-env config = {
     }
   ]
 }
+
+alias vconf = nvim ~/AppData/Local/nvim/init.vim
+alias nconf = nvim ~/AppData/Roaming/nushell/config.nu
+alias lg = lazygit
+alias c = clear
+alias gs = git status
+alias gf = git diff
+alias mv = mv -i
+alias mkdir = mkdir -p
