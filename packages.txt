@@ -17,6 +17,7 @@
 13. Progress Telerik Fiddler Classic
 14. PowerToys
 15. TrafficMonitor
-16. Typora
-17. diskgenius
-18. easyUEFI enterprise (in aliyun)
+16. Snipaste
+17. Typora
+18. diskgenius
+19. easyUEFI enterprise (in aliyun)
