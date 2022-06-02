@@ -401,6 +401,3 @@ let-env config = {
     }
   ]
 }
-
-# environment
-let-env Path = ($env.Path | prepend 'C:\Program Files\Git\usr\bin')
