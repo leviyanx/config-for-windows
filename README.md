@@ -5,6 +5,7 @@ How to use in a new windows system
 3. set branch: `git branch -M main`
 4. add remote repo: `git remote add origin git@github.com:leviyanx/config-for-windows.git`
 5. git pull: `git pull origin main`
+6. git pull submodule: `git submodule update --init --recursive`
 
 Extra
 
