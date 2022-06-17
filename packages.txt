@@ -20,4 +20,4 @@
 16. Snipaste
 17. Typora
 18. diskgenius
-19. easyUEFI enterprise (in aliyun)
+19. ~~easyUEFI enterprise (in aliyun)~~ replaced by Disk Genius
