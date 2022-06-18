@@ -410,3 +410,5 @@ alias gs = git status
 alias gf = git diff
 alias mv = mv -i
 alias mkdir = mkdir -p
+alias nv = nvim
+alias v = nvim
