@@ -9,16 +9,17 @@
 7. Aliyun
 8. Utools + everything
 9. Bandizip
-10. Themes
+10. Snipaste
+11. Themes
     1. Auto dark mode
-11. Programming
+12. Programming
     1. Microsoft terminal
     2. vscode
-12. Logitech Options
-13. Progress Telerik Fiddler Classic
-14. PowerToys
-15. TrafficMonitor
-16. Snipaste
-17. Typora
-18. diskgenius
-19. ~~easyUEFI enterprise (in aliyun)~~ replaced by Disk Genius
+13. Logitech Options
+14. Progress Telerik Fiddler Classic
+15. PowerToys
+16. TrafficMonitor
+17. Snipaste
+18. Typora
+19. diskgenius
+20. ~~easyUEFI enterprise (in aliyun)~~ replaced by Disk Genius
