@@ -9,40 +9,6 @@
 # Whitelist
 # trailing "/" is optional for folders, may match file though.
 # "/" is NOT optional when followed by a *
-# AppData dir
-!AppData
-AppData/*
-# terminal
-
-# nushell
-!AppData/Roaming
-AppData/Roaming/*
-!AppData/Roaming/nushell
-AppData/Roaming/nushell/*
-!AppData/Roaming/nushell/env.nu
-!AppData/Roaming/nushell/config.nu
-# neovim
-!AppData/Local
-AppData/Local/*
-!AppData/Local/nvim
-# AppData/Local/nvim/*
-#!AppData/Local/nvim/init.vim
-#!AppData/Local/nvim/colors/
-#!AppData/Local/nvim/autoload/
-# lazygit
-!AppData/lazygit
-# windows terminal
-#!AppData/Local
-#AppData/Local/*
-!AppData/Local/Packages/
-AppData/Local/Packages/*
-!AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe
-AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/*
-!AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState
-AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/*
-!AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json
 
 # .config dir
 !.config/
-.config/*
-!.config/clash/
