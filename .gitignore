@@ -5,6 +5,7 @@
 !.gitignore
 !README.md
 !packages.txt
+!.ideavimrc
 
 # Whitelist
 # trailing "/" is optional for folders, may match file though.
