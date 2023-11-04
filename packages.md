@@ -1,8 +1,10 @@
 1. proxy network: `clash for windows`
 2. Geek uninstaller
-3. Huorong
+3. 微软电脑管家
 4. Diskgenius
 5. Bandizip
 6. Logitech G Hub
 7. Progress Telerik Fiddler Classic
 8. PowerToys
+9. Everything
+10. [EverythingPowerToys](https://github.com/lin-ycv/EverythingPowerToys)
