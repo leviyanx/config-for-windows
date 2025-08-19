@@ -1,4 +1,8 @@
-How to use in a new windows system
+主要配置
+
+1. idea上vimrc配置
+
+在新系统上使用
 
 1. go into your `$home ` directory
 2. initiate repo: `git init`
@@ -6,7 +10,9 @@ How to use in a new windows system
 4. add remote repo: `git remote add origin git@github.com:leviyanx/config-for-windows.git`
 5. git pull: `git pull origin main`
 
-Extra
+## 其他必需软件
 
-1. install [lazygit](https://github.com/jesseduffield/lazygit) and add it to `path`
-2. [Other necessary programs list](./packages.md)
+1. [软件列表](./packages.md)
+2. 命令行软件
+    1. Git
+    2. 安装[lazygit](https://github.com/jesseduffield/lazygit)并在环境变量`path`中注册
