@@ -10,3 +10,4 @@
 10. [EverythingPowerToys](https://github.com/lin-ycv/EverythingPowerToys)
 11. [Neat Download Manager](https://www.neatdownloadmanager.com)
 12. 小狼毫
+13. [Auto Dark Mode](https://github.com/AutoDarkMode/Windows-Auto-Night-Mode)
