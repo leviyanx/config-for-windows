@@ -19,3 +19,4 @@
 3. 命令行软件
     1. Git
     2. 安装[lazygit](https://github.com/jesseduffield/lazygit)并在环境变量`path`中注册
+    3. Ranger for Windows, Another name: [LF](https://github.com/gokcehan/lf)
