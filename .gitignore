@@ -6,6 +6,7 @@
 !README.md
 !packages.txt
 !.ideavimrc
+!_vsvimrc
 
 # Whitelist
 # trailing "/" is optional for folders, may match file though.

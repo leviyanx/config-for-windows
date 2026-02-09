@@ -1,0 +1,129 @@
+" ///// 基础设置 /////
+let mapleader = ","
+let localleader = ","
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set number
+" Visual Studio 2015+ 支持相对行号，如果版本较旧可能无效
+set relativenumber 
+set showcmd
+set cursorline
+" VsVim 内置了 surround 支持，直接开启即可
+set surround
+" VsVim 不支持 vim-commentary 插件配置，但可以通过映射 VS 的注释命令来实现，见下方 Key mappings
+
+set wildmenu
+set showmatch
+set timeoutlen=500
+
+set scrolloff=5
+set backspace=2
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+" VsVim 通常默认处理 hidden buffer，显式设置也可以
+set hidden
+
+" VsVim 不使用 statusline，这几行被忽略
+" set fillchars+=stl:\ ,stlnc:\
+" set laststatus=2
+
+" 剪切板设置 (VsVim 通常只需这一行即可与系统剪切板互通)
+set clipboard=unnamed
+
+" ///// 键位映射 /////
+
+" <S-Tab> unindent
+inoremap <S-Tab> <C-d>
+
+" ///// 常用功能映射 (转换为 VS 命令) /////
+
+" 搜索任意内容 (SearchEverywhere -> GoToAll)
+noremap ,xm :vsc Edit.GoToAll<CR>
+
+" 注释当前行/选区 (CommentByLineComment -> ToggleLineComment)
+noremap ,ci :vsc Edit.ToggleLineComment<CR>
+noremap ,cb :vsc Edit.ToggleBlockComment<CR>
+
+" 保存所有 (SaveAll -> SaveAll)
+noremap ,xs :vsc File.SaveAll<CR>
+" 普通模式下：保存所有文件
+noremap <C-s> :vsc File.SaveAll<CR>
+" 插入模式下：退出插入模式并保存所有文件
+inoremap <C-s> <Esc>:vsc File.SaveAll<CR>
+
+" 复制 (VS 原生复制)
+noremap ,aa :vsc Edit.Copy<CR>
+
+" 粘贴 (VS 原生粘贴)
+noremap ,zz :vsc Edit.Paste<CR>
+
+" 历史粘贴 (JetBrains 的 PasteMultiple 对应 VS 的“循环剪切板环”)
+noremap ,yy :vsc Edit.CycleClipboardRing<CR>
+
+" 全局查找 (FindInPath -> FindinFiles)
+noremap ,qq :vsc Edit.FindinFiles<CR>
+
+" 当前文件查找 (Find -> Find)
+noremap ,ss :vsc Edit.Find<CR>
+
+" 复制文件路径 (CopyPaths -> CopyFullPath)
+noremap ,fp :vsc File.CopyFullPath<CR>
+
+" 关闭编辑器 (CloseEditor -> CloseDocumentWindow)
+noremap ,xk :vsc Window.CloseDocumentWindow<CR>
+
+" 最近的文件 (RecentFiles -> GoToRecentFile)
+" 注意：VS 原生没有完全一致的弹窗，这里映射到 VS 的最近文件菜单命令，或者使用 Ctrl+, (GoToAll)
+noremap ,rr :vsc File.RecentFiles<CR>
+
+" 跳转文件 (GotoFile -> GoToFile)
+noremap ,kk :vsc Edit.GoToFile<CR>
+
+" 跳转符号 (GotoSymbol -> GoToSymbol)
+" VS 中通常集成在 GoToAll 中，这里尝试映射到 GoToMember
+noremap ,ii :vsc Edit.GoToMember<CR>
+
+" 跳转实现 (GotoImplementation -> GoToImplementation)
+noremap <C-]> :vsc Edit.GoToImplementation<CR>
+
+" 打开终端 (ActivateTerminalToolWindow -> Terminal)
+" 取决于 VS 版本，通常是 View.Terminal
+noremap ,xz :vsc View.Terminal<CR>
+
+" 隐藏所有窗口 (HideAllWindows -> CloseAllToolWindows)
+" VS 中 Shift+Esc 的功能通常对应关闭工具窗口
+noremap ,tb :vsc Window.CloseAllToolWindows<CR>
+
+" ///// 跳转历史 /////
+" 使用 VS 的原生后退/前进
+noremap <C-o> :vsc View.NavigateBackward<CR>
+noremap <C-i> :vsc View.NavigateForward<CR>
+
+" ///// 窗口管理 /////
+
+" 关闭其他窗口 (只保留当前)
+noremap ,x1 :vsc Window.CloseAllButThis<CR>
+
+" 水平拆分 (Split)
+noremap ,x2 :split<CR>
+
+" 垂直拆分 (VS 的 vsplit 有时行为不同，但 VsVim 支持 :vsplit)
+noremap ,x3 :vsplit<CR>
+
+" 关闭当前分屏
+noremap ,x0 :q<CR>
+
+" ///// 窗口移动 /////
+noremap ,wh <C-W>h
+noremap ,wl <C-W>l
+noremap ,wj <C-W>j
+noremap ,wk <C-W>k
+
+" ///// 选择单词 /////
+" IdeaVim 的 EditorSelectWord 对应 VS 的扩展选区
+noremap ,xx :vsc Edit.SelectCurrentWord<CR>
